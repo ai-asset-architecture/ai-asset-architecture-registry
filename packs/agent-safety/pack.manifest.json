@@ -1,0 +1,11 @@
+{
+  "id": "agent-safety",
+  "version": "1.0.0",
+  "description": "Baseline agent safety checks",
+  "content": {
+    "checks": ["checks/*.py"],
+    "exclude": ["__pycache__/**", ".git/**"]
+  },
+  "requires": ["aaa-tools>=0.8.0"],
+  "applies_to": ["agent", "genai-service"]
+}
