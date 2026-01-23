@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-01-24T00:00:00Z",
+  "registries": {
+    "official": {
+      "type": "github-public",
+      "url": "https://raw.githubusercontent.com/ai-asset-architecture/ai-asset-architecture-registry/main/registry_index.json"
+    }
+  },
+  "packs": {
+    "agent-safety": {
+      "latest": "1.0.0",
+      "versions": {
+        "1.0.0": "https://github.com/ai-asset-architecture/ai-asset-architecture-registry/releases/download/agent-safety-v1.0.0/agent-safety-1.0.0.zip"
+      },
+      "requires": ["aaa-tools>=0.8.0"],
+      "applies_to": ["agent", "genai-service"]
+    }
+  }
+}
