@@ -11,10 +11,15 @@
     "agent-safety": {
       "latest": "1.0.0",
       "versions": {
-        "1.0.0": "https://github.com/ai-asset-architecture/ai-asset-architecture-registry/releases/download/agent-safety-v1.0.0/agent-safety-1.0.0.zip"
+        "1.0.0": "https://github.com/ai-asset-architecture/ai-asset-architecture-registry/releases/download/agent-safety-v1.0.0/pack-agent-safety-1.0.0.zip"
       },
-      "requires": ["aaa-tools>=0.8.0"],
-      "applies_to": ["agent", "genai-service"]
+      "requires": [
+        "aaa-tools>=0.8.0"
+      ],
+      "applies_to": [
+        "agent",
+        "genai-service"
+      ]
     }
   }
 }
