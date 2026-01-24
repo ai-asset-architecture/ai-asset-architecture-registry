@@ -7,6 +7,33 @@
       "url": "https://raw.githubusercontent.com/ai-asset-architecture/ai-asset-architecture-registry/main/registry_index.json"
     }
   },
+  "components": {
+    "tools": {
+      "latest": "v1.0.0",
+      "source_repo": "aaa-tools",
+      "status": "available"
+    },
+    "actions": {
+      "latest": "v1.0.0",
+      "source_repo": "aaa-actions",
+      "status": "available"
+    },
+    "evals": {
+      "latest": "v1.0.0",
+      "source_repo": "aaa-evals",
+      "status": "available"
+    },
+    "templates": {
+      "latest": "v1.0.0",
+      "source_repo": "aaa-tpl-docs",
+      "status": "available"
+    },
+    "prompts": {
+      "latest": "",
+      "source_repo": "aaa-prompts",
+      "status": "planned"
+    }
+  },
   "packs": {
     "agent-safety": {
       "latest": "1.0.0",
