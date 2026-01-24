@@ -20,6 +20,33 @@
         "agent",
         "genai-service"
       ]
+    },
+    "base-governance": {
+      "latest": "0.1.0",
+      "versions": {},
+      "status": "planned",
+      "requires": [
+        "aaa-tools>=0.8.0"
+      ],
+      "applies_to": [
+        "docs",
+        "service",
+        "frontend",
+        "agent",
+        "genai-service"
+      ]
+    },
+    "industry-saas": {
+      "latest": "0.1.0",
+      "versions": {},
+      "status": "planned",
+      "requires": [
+        "aaa-tools>=0.8.0"
+      ],
+      "applies_to": [
+        "service",
+        "frontend"
+      ]
     }
   }
 }

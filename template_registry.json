@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-01-24T00:00:00Z",
+  "templates": {
+    "enterprise-sop-kit": {
+      "title": "Enterprise SOP Kit",
+      "summary": "AI-native governance SOP kit with RACI and adoption checklist.",
+      "source_repo": "aaa-tpl-docs",
+      "paths": [
+        "docs/enterprise/sop_kit.md",
+        "docs/enterprise/raci_matrix.md",
+        "docs/enterprise/adoption_checklist.md"
+      ],
+      "status": "active"
+    }
+  }
+}
