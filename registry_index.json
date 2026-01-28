@@ -25,17 +25,17 @@
       "status": "available"
     },
     "evals": {
-      "latest": "v1.1.0",
+      "latest": "v1.5.0",
       "source_repo": "aaa-evals",
       "status": "available"
     },
     "templates": {
-      "latest": "v1.1.0",
+      "latest": "v1.5.0",
       "source_repo": "aaa-tpl-docs",
       "status": "available"
     },
     "prompts": {
-      "latest": "v1.1.0",
+      "latest": "v1.5.0",
       "source_repo": "aaa-prompts",
       "status": "available"
     }
