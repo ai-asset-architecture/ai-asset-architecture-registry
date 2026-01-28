@@ -9,9 +9,15 @@
   },
   "components": {
     "tools": {
-      "latest": "v1.1.0",
+      "latest": "v1.5.0",
       "source_repo": "aaa-tools",
       "status": "available"
+    },
+    "policies": {
+      "latest": "v1.0.0",
+      "source_repo": "aaa-policies",
+      "status": "available",
+      "description": "Registry for distributed governance policies."
     },
     "actions": {
       "latest": "v1.1.0",
@@ -50,10 +56,12 @@
     },
     "base-governance": {
       "latest": "0.1.0",
-      "versions": {},
-      "status": "planned",
+      "versions": {
+        "0.1.0": "aaa-policies/policies/base-governance/0.1.0/check_base_governance.py"
+      },
+      "status": "available",
       "requires": [
-        "aaa-tools>=0.8.0"
+        "aaa-tools>=1.4.0"
       ],
       "applies_to": [
         "docs",
@@ -97,5 +105,19 @@
         "tools"
       ]
     }
+  },
+  "self-healing": {
+    "latest": "0.1.0",
+    "versions": {
+      "0.1.0": "aaa-evals/evals/semantic/check_clean_arch.py"
+    },
+    "status": "beta",
+    "requires": [
+      "aaa-tools>=1.5.0"
+    ],
+    "applies_to": [
+      "service",
+      "frontend"
+    ]
   }
 }
