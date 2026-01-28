@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-24T00:00:00Z",
+  "generated_at": "2026-01-28T13:10:00Z",
   "registries": {
     "official": {
       "type": "github-public",
@@ -9,29 +9,29 @@
   },
   "components": {
     "tools": {
-      "latest": "v1.0.0",
+      "latest": "v1.1.0",
       "source_repo": "aaa-tools",
       "status": "available"
     },
     "actions": {
-      "latest": "v1.0.0",
+      "latest": "v1.1.0",
       "source_repo": "aaa-actions",
       "status": "available"
     },
     "evals": {
-      "latest": "v1.0.0",
+      "latest": "v1.1.0",
       "source_repo": "aaa-evals",
       "status": "available"
     },
     "templates": {
-      "latest": "v1.0.0",
+      "latest": "v1.1.0",
       "source_repo": "aaa-tpl-docs",
       "status": "available"
     },
     "prompts": {
-      "latest": "",
+      "latest": "v1.1.0",
       "source_repo": "aaa-prompts",
-      "status": "planned"
+      "status": "available"
     }
   },
   "packs": {
