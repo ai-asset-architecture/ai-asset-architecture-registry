@@ -159,5 +159,23 @@
       "service",
       "frontend"
     ]
+  },
+  "assets": {
+    "lessons": {
+      "v2.0.2-nightly-recovery": {
+        "title": "v2.0.2 Nightly Governance Recovery Lessons",
+        "path": "aaa-tpl-docs/internal/development/lessons/20260129_v2.0.2_nightly_recovery.md",
+        "version": "v2.0.2",
+        "status": "available"
+      }
+    },
+    "runbooks": {
+      "nightly-debug-runbook": {
+        "title": "Nightly Debug Runbook",
+        "path": "aaa-tpl-docs/docs/runbooks/nightly_debug_runbook.md",
+        "version": "v2.0.2",
+        "status": "available"
+      }
+    }
   }
 }
