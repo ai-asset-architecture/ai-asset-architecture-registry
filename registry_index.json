@@ -30,14 +30,22 @@
       "status": "available"
     },
     "templates": {
-      "latest": "v1.5.0",
+      "latest": "v2.0.1",
       "source_repo": "aaa-tpl-docs",
-      "status": "available"
+      "status": "available",
+      "description": "Standardized governance document templates (Plans/Audits/Reports)."
     },
     "prompts": {
-      "latest": "v1.5.0",
+      "latest": "v2.0.1",
       "source_repo": "aaa-prompts",
-      "status": "available"
+      "status": "available",
+      "description": "Library of role-specific bootstrapping prompts."
+    },
+    "runbooks": {
+      "latest": "v2.0.1",
+      "source_repo": "aaa-tpl-docs",
+      "status": "available",
+      "description": "Operational runbooks for governance enforcement."
     }
   },
   "packs": {
