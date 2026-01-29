@@ -9,7 +9,7 @@
   },
   "components": {
     "tools": {
-      "latest": "v1.7.0",
+      "latest": "v1.8.0",
       "source_repo": "aaa-tools",
       "status": "available"
     },
