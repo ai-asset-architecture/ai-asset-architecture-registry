@@ -1,12 +1,12 @@
 {
     "schema_version": "2.0",
-    "min_cli_version": "1.2.0",
-    "last_updated": "2026-01-28T21:00:00Z",
-    "comment": "Semantic Registry Seed (v1.2)",
+    "min_cli_version": "1.5.0",
+    "last_updated": "2026-01-29T01:36:32.041112+00:00",
+    "comment": "Generated from AAA_MENU.md by aaa registry compile",
     "object_types": {
-        "service": {
+        "backend-service": {
             "display_name": "Backend Service",
-            "description": "API-first microservices requiring contract testing and observability.",
+            "description": "API-first microservices requiring contract testing",
             "inherited_packs": [
                 "core-governance",
                 "api-standards"
@@ -16,9 +16,9 @@
                 "check-health-endpoint"
             ]
         },
-        "library": {
+        "shared-library": {
             "display_name": "Shared Library",
-            "description": "Reusable code modules requiring versioning and rigorous unit testing.",
+            "description": "Reusable code modules with versioning",
             "inherited_packs": [
                 "core-governance",
                 "semver-policy"
@@ -30,7 +30,7 @@
         },
         "data-pipeline": {
             "display_name": "Data Pipeline",
-            "description": "ETL/ELT jobs requiring schema validation and data quality checks.",
+            "description": "ETL/ELT jobs with schema validation",
             "inherited_packs": [
                 "core-governance",
                 "data-quality"
@@ -40,8 +40,8 @@
             ]
         },
         "infra-as-code": {
-            "display_name": "Infrastructure as Code",
-            "description": "Terraform/K8s manifests requiring security scanning.",
+            "display_name": "Infra as Code",
+            "description": "Terraform/K8s manifests",
             "inherited_packs": [
                 "core-governance",
                 "security-baseline"
@@ -54,31 +54,11 @@
     },
     "packs": {
         "agent-safety": {
-            "version": "1.0.0",
-            "capabilities": [
-                "prevents file system access outside sandbox",
-                "detects potential prompt injection attacks",
-                "blocks unauthorized network egress"
-            ],
-            "object_type_compatibility": [
-                "service",
-                "data-pipeline"
-            ],
+            "capabilities": [],
             "source": "github:ai-asset-architecture/aaa-packs//agent-safety"
         },
         "core-governance": {
-            "version": "1.1.0",
-            "capabilities": [
-                "enforces standard README structure",
-                "validates CODEOWNERS existence",
-                "checks workflow pinning"
-            ],
-            "object_type_compatibility": [
-                "service",
-                "library",
-                "data-pipeline",
-                "infra-as-code"
-            ],
+            "capabilities": [],
             "source": "github:ai-asset-architecture/aaa-packs//core-governance"
         }
     }
