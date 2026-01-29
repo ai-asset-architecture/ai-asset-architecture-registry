@@ -106,6 +106,14 @@
       ]
     }
   },
+  "supreme-court": {
+    "capabilities": [
+      "human-in-the-loop",
+      "ethical-override",
+      "async-adjudication"
+    ],
+    "status": "active"
+  },
   "self-healing": {
     "latest": "0.1.0",
     "versions": {
