@@ -106,6 +106,15 @@
       ]
     }
   },
+  "agent-os": {
+    "capabilities": [
+      "kernel-boot",
+      "trust-verify",
+      "certification",
+      "autonomy-engine"
+    ],
+    "status": "active"
+  },
   "supreme-court": {
     "capabilities": [
       "human-in-the-loop",
