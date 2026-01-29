@@ -9,12 +9,12 @@
   },
   "components": {
     "tools": {
-      "latest": "v1.8.0",
+      "latest": "v2.0.1",
       "source_repo": "aaa-tools",
       "status": "available"
     },
     "policies": {
-      "latest": "v1.0.0",
+      "latest": "v2.0.1",
       "source_repo": "aaa-policies",
       "status": "available",
       "description": "Registry for distributed governance policies."
@@ -42,16 +42,31 @@
   },
   "packs": {
     "agent-safety": {
-      "latest": "1.0.0",
+      "latest": "2.0.1",
       "versions": {
-        "1.0.0": "https://github.com/ai-asset-architecture/ai-asset-architecture-registry/releases/download/agent-safety-v1.0.0/pack-agent-safety-1.0.0.zip"
+        "1.0.0": "https://github.com/ai-asset-architecture/ai-asset-architecture-registry/releases/download/agent-safety-v1.0.0/pack-agent-safety-1.0.0.zip",
+        "2.0.1": "aaa-tools/aaa/trust/identity.py"
       },
       "requires": [
-        "aaa-tools>=0.8.0"
+        "aaa-tools>=2.0.1"
       ],
       "applies_to": [
         "agent",
         "genai-service"
+      ]
+    },
+    "trust-boundary": {
+      "latest": "2.0.1",
+      "versions": {
+        "2.0.1": "aaa-tools/aaa/policy/scope.py"
+      },
+      "status": "available",
+      "requires": [
+        "aaa-tools>=2.0.1"
+      ],
+      "applies_to": [
+        "agent",
+        "tools"
       ]
     },
     "base-governance": {
