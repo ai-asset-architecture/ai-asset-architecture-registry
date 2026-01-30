@@ -161,11 +161,41 @@
     ]
   },
   "assets": {
+    "audits": {
+      "v2.0.4-init-plan-presets": {
+        "title": "Audit v2.0.4 Presets (status=complete; evidence=CMD/OUT/HASH; replayable)",
+        "path": "aaa-tpl-docs/internal/development/audits/2026-01-30-v2.0.4-audit-presets.md",
+        "version": "v2.0.4",
+        "status": "available"
+      }
+    },
+    "guides": {
+      "ai-bootstrap-presets": {
+        "title": "AI Bootstrap (includes --preset examples; default=governance_native)",
+        "path": "aaa-docs/bootstrap/ai_bootstrap.md",
+        "version": "v2.0.4",
+        "status": "available"
+      },
+      "cli-connection-presets": {
+        "title": "CLI Connection Guide (init presets usage; resolver order noted)",
+        "path": "aaa-docs/bootstrap/cli_connection_guide.md",
+        "version": "v2.0.4",
+        "status": "available"
+      }
+    },
     "lessons": {
       "v2.0.2-nightly-recovery": {
         "title": "v2.0.2 Nightly Governance Recovery Lessons",
         "path": "aaa-tpl-docs/internal/development/lessons/20260129_v2.0.2_nightly_recovery.md",
         "version": "v2.0.2",
+        "status": "available"
+      }
+    },
+    "plans": {
+      "init-plan-v2.0-presets": {
+        "title": "Init Plan v2.0 (presets: governance_native, lean; default=governance_native; required=.github)",
+        "path": "aaa-tools/runbooks/init/plan.v2.0.json",
+        "version": "v2.0.4",
         "status": "available"
       }
     },
@@ -175,6 +205,50 @@
         "path": "aaa-tpl-docs/docs/runbooks/nightly_debug_runbook.md",
         "version": "v2.0.2",
         "status": "available"
+      }
+    },
+    "schemas": {
+      "init-plan-schema-v2.0": {
+        "title": "Plan Schema v2.0 (presets+default_preset; compat=legacy repos supported)",
+        "path": "aaa-tools/specs/plan.schema.json",
+        "version": "v2.0.4",
+        "status": "available"
+      }
+    },
+    "tests": {
+      "init-plan-presets-tests": {
+        "title": "Presets Tests (covers: T-001..T-008; tokens: MODE=legacy, legacy_repos_ignored)",
+        "path": "aaa-tools/tests/test_init_plan_presets.py",
+        "version": "v2.0.4",
+        "status": "available"
+      }
+    },
+    "tools": {
+      "init-plan-presets-resolver": {
+        "title": "Init Resolver (order: --preset > default_preset > legacy; fail_fast=true)",
+        "path": "aaa-tools/aaa/init_commands.py",
+        "version": "v2.0.4",
+        "status": "available"
+      }
+    },
+    "unchanged": {
+      "evals-v2.0.4": {
+        "title": "Evals (explicitly unchanged in v2.0.4)",
+        "path": "-",
+        "version": "v2.0.4",
+        "status": "explicitly_unchanged"
+      },
+      "policy-packs-v2.0.4": {
+        "title": "Policy Packs (explicitly unchanged in v2.0.4)",
+        "path": "-",
+        "version": "v2.0.4",
+        "status": "explicitly_unchanged"
+      },
+      "templates-v2.0.4": {
+        "title": "Templates (explicitly unchanged in v2.0.4)",
+        "path": "-",
+        "version": "v2.0.4",
+        "status": "explicitly_unchanged"
       }
     }
   }
