@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-01-28T13:10:00Z",
+  "generated_at": "2026-01-30T21:13:40Z",
   "registries": {
     "official": {
       "type": "github-public",
@@ -167,6 +167,12 @@
         "path": "aaa-tpl-docs/internal/development/audits/2026-01-30-v2.0.4-audit-presets.md",
         "version": "v2.0.4",
         "status": "available"
+      },
+      "v2.0.5-repo-type-map": {
+        "title": "Audit v2.0.5 Repo Type Map SSOT + Soft Enum (evidence=CMD/OUT/HASH)",
+        "path": "aaa-tpl-docs/internal/development/audits/2026-01-31-v2.0.5-repo-type-map-audit.md",
+        "version": "v2.0.5",
+        "status": "available"
       }
     },
     "guides": {
@@ -228,6 +234,12 @@
         "title": "Init Resolver (order: --preset > default_preset > legacy; fail_fast=true)",
         "path": "aaa-tools/aaa/init_commands.py",
         "version": "v2.0.4",
+        "status": "available"
+      },
+      "repo-type-map-ssot": {
+        "title": "Repo Type Map SSOT (source of truth for nightly repo_type mapping)",
+        "path": "aaa-actions/.aaa/repo_type_map.json",
+        "version": "v2.0.5",
         "status": "available"
       }
     },
